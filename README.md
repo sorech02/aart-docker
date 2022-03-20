@@ -8,13 +8,13 @@
 * Get an export sql file by some means
 * Append the following to the export, with the real password inserted:
 ```
-CREATE USER 'aart_web'@'%' IDENTIFIED WITH mysql_native_password BY 'PUT_PASSWORD HERE';
+CREATE USER 'aart_web'@'%' IDENTIFIED WITH mysql_native_password BY 'PUT_PASSWORD_HERE';
 GRANT ALL ON aart.* TO 'aart_web'@'%';
 ```
 * Place the .sql file in the mysql-init directory
 
 ## Run
-* `docker compose up` in the root directory
+* `docker-compose up` in the root directory
 * AART will run at http://localhost:8080/aart/home
 
 # Open Issues
