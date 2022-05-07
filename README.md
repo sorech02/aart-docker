@@ -1,6 +1,6 @@
 # aart-docker
 ## Get a copy of aart.war
-* Download from here: https://github.com/immregistries-internal/aart-measure/releases/download/v2.42.2/aart-docker.war
+* Download from here: https://github.com/immregistries-internal/aart-measure/releases/download/v2.43.6/aart-docker.war
   * OR Build AART with the connections changed like here: https://github.com/immregistries-internal/aart-measure/commit/dfb2df0f9bee2c17495f96839d7e03752bb39986
 * Name the file aart.war and place at the root level with docker-compose.yml
 
